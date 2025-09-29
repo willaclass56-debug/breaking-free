@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Free - Stop Punching Yourself In The Face | Shawn Straker</title>
+    <meta name="description" content="The brutal truth about why smart people sabotage their success. Get the step-by-step battle plan to break free from self-sabotage once and for all. By Shawn Straker - $40">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    
+    <!-- Facebook Pixel -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID');
+        fbq('track', 'PageView');
+    </script>
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Breaking Free</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#problem" class="nav-link">The Problem</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#solution" class="nav-link">The Solution</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#author" class="nav-link">About Author</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://ko-fi.com/s/901892076f" class="nav-link cta-button" target="_blank">Get Book - $40</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        STOP Punching Yourself 
+                        <span class="highlight-red">In The Face</span>
+                        <span class="subtitle">(And Finally Win The War Inside Your Head)</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        The Brutal Truth About Why Smart, Capable People Keep Sabotaging Their Own Success... 
+                        And The Step-By-Step Battle Plan To Break Free Once And For All
+                    </p>
+                    
+                    <div class="hero-features">
+                        <div class="feature-item">
+                            <i class="fas fa-brain glow-icon"></i>
+                            <span>Science-Based Techniques</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-target glow-icon"></i>
+                            <span>25+ Proven Methods</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-clock glow-icon"></i>
+                            <span>Instant Results</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-ctas">
+                        <a href="#lead-magnet" class="btn btn-primary pulse" onclick="trackEvent('CTA Click', 'Hero Free Chapter')">
+                            <i class="fas fa-download"></i>
+                            Get Free Chapter + Assessment
+                        </a>
+                        <a href="https://ko-fi.com/s/901892076f" class="btn btn-secondary" target="_blank" onclick="trackEvent('CTA Click', 'Hero Buy Now')">
+                            <i class="fas fa-shopping-cart"></i>
+                            Get Full Book - $40
+                        </a>
+                    </div>
+                    
+                    <div class="social-proof-mini">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span>4.9/5 stars from 2,847+ readers</span>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="book-container">
+                        <div class="book-glow"></div>
+                        <img src="images/book-cover.jpg" alt="Breaking Free: Overcoming Guilt and Self-Sabotage by Shawn Straker" class="book-cover" onclick="openLightbox(this.src)">
+                        <div class="book-badge">
+                            <span class="price-old">Was $59.99</span>
+                            <span class="price-current">Now $40</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <div class="float-element" style="--delay: 0s; --x: 10%; --y: 20%;"></div>
+            <div class="float-element" style="--delay: 1s; --x: 90%; --y: 30%;"></div>
+            <div class="float-element" style="--delay: 2s; --x: 20%; --y: 80%;"></div>
+            <div class="float-element" style="--delay: 3s; --x: 80%; --y: 70%;"></div>
+        </div>
+    </section>
+
+    <!-- Promotional Banner Section -->
+    <section class="promotional-banner">
+        <div class="container">
+            <div class="promo-content">
+                <img src="images/promotional-image.jpg" alt="Stop Punching Yourself In The Face - The Brutal Truth About Self-Sabotage" class="promo-image" onclick="openLightbox(this.src)">
+                <div class="promo-cta">
+                    <h3>Ready to Break Free From Self-Sabotage?</h3>
+                    <a href="https://ko-fi.com/s/901892076f" class="btn btn-primary btn-large pulse" target="_blank" onclick="trackEvent('CTA Click', 'Promotional Banner')">
+                        <i class="fas fa-rocket"></i>
+                        Get Breaking Free - $40
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Here's What's Really Going On 
+                    <span class="highlight-red">(And Why It's Not Your Fault)</span>
+                </h2>
+                <p class="section-subtitle">
+                    You've been fighting this war with the wrong weapons
+                </p>
+            </div>
+            
+            <div class="problem-content">
+                <div class="problem-text">
+                    <p class="lead-text">
+                        Listen up, hotshot... You know what pisses me off more than anything?
+                    </p>
+                    
+                    <p>
+                        Watching good people—smart people like you—get absolutely crushed by an enemy they can't even see.
+                    </p>
+                    
+                    <p>
+                        An enemy that lives inside their own head. An enemy that whispers lies like "you don't deserve this" and "who are you kidding?" right when you're about to break through to the next level.
+                    </p>
+                    
+                    <div class="callout-box">
+                        <h3>That enemy has a name: <span class="highlight-red">Self-Sabotage</span></h3>
+                        <p>And brother, it's been kicking your ass for way too long.</p>
+                    </div>
+                </div>
+                
+                <div class="saboteurs-grid">
+                    <h3 class="grid-title">The Four Faces Of Your Inner Saboteur</h3>
+                    
+                    <div class="saboteur-card" data-type="perfectionist">
+                        <div class="card-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h4>The Perfectionist</h4>
+                        <p>Never starts because it won't be "perfect." Dies with their music still inside them.</p>
+                        <div class="card-glow perfectionist-glow"></div>
+                    </div>
+                    
+                    <div class="saboteur-card" data-type="pleaser">
+                        <div class="card-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>The People-Pleaser</h4>
+                        <p>Says "yes" to everyone else's dreams while their own shrivel up and die.</p>
+                        <div class="card-glow pleaser-glow"></div>
+                    </div>
+                    
+                    <div class="saboteur-card" data-type="procrastinator">
+                        <div class="card-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>The Procrastinator</h4>
+                        <p>Always "preparing" and "researching" but never actually DOING the damn thing.</p>
+                        <div class="card-glow procrastinator-glow"></div>
+                    </div>
+                    
+                    <div class="saboteur-card" data-type="critic">
+                        <div class="card-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <h4>The Self-Criticizer</h4>
+                        <p>Beats themselves up so badly that giving up feels like mercy.</p>
+                        <div class="card-glow critic-glow"></div>
+                    </div>
+                </div>
+                
+                <div class="problem-cta">
+                    <p class="cta-text">Sound familiar? Yeah, I thought so.</p>
+                    <a href="#solution" class="btn btn-outline">See The Solution</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    The Good News 
+                    <span class="highlight-gold">(And Why There's Hope)</span>
+                </h2>
+                <p class="section-subtitle">
+                    Here's what the "experts" don't want you to know: This stuff is fixable.
+                </p>
+            </div>
+            
+            <div class="solution-content">
+                <div class="solution-intro">
+                    <p class="lead-text">
+                        Not with therapy that takes 10 years and costs $50,000. Not with meditation retreats in Tibet. 
+                        Not with crystals and essential oils and other hippie nonsense.
+                    </p>
+                    
+                    <p class="emphasis-text">
+                        But with <strong>proven, science-based techniques</strong> that work on the actual neural pathways in your brain.
+                    </p>
+                </div>
+                
+                <div class="techniques-grid">
+                    <div class="technique-item">
+                        <div class="technique-icon">
+                            <i class="fas fa-cloud-rain glow-icon"></i>
+                        </div>
+                        <h4>The RAIN Method</h4>
+                        <p>For emotional regulation (stops panic attacks and anxiety spirals dead in their tracks)</p>
+                    </div>
+                    
+                    <div class="technique-item">
+                        <div class="technique-icon">
+                            <i class="fas fa-shield-alt glow-icon"></i>
+                        </div>
+                        <h4>Shame Resilience Building</h4>
+                        <p>Turns your biggest weakness into your secret weapon</p>
+                    </div>
+                    
+                    <div class="technique-item">
+                        <div class="technique-icon">
+                            <i class="fas fa-anchor glow-icon"></i>
+                        </div>
+                        <h4>5-4-3-2-1 Grounding</h4>
+                        <p>Pulls you out of mental quicksand in under 60 seconds</p>
+                    </div>
+                    
+                    <div class="technique-item">
+                        <div class="technique-icon">
+                            <i class="fas fa-comments glow-icon"></i>
+                        </div>
+                        <h4>DEAR MAN Scripts</h4>
+                        <p>Finally say "no" without feeling like a monster</p>
+                    </div>
+                    
+                    <div class="technique-item">
+                        <div class="technique-icon">
+                            <i class="fas fa-chart-line glow-icon"></i>
+                        </div>
+                        <h4>80/20 Success Redefinition</h4>
+                        <p>Perfectionism's kryptonite</p>
+                    </div>
+                    
+                    <div class="technique-item">
+                        <div class="technique-icon">
+                            <i class="fas fa-plus glow-icon"></i>
+                        </div>
+                        <h4>20+ Other Methods</h4>
+                        <p>Battle-tested techniques that actually work in the real world</p>
+                    </div>
+                </div>
+                
+                <div class="value-proposition">
+                    <div class="value-content">
+                        <h3>What You Get for Just $40:</h3>
+                        <ul class="value-list">
+                            <li><i class="fas fa-check glow-icon"></i>Complete self-sabotage elimination system</li>
+                            <li><i class="fas fa-check glow-icon"></i>25+ scientifically-proven techniques</li>
+                            <li><i class="fas fa-check glow-icon"></i>Step-by-step implementation guides</li>
+                            <li><i class="fas fa-check glow-icon"></i>Emergency intervention protocols</li>
+                            <li><i class="fas fa-check glow-icon"></i>Lifetime access and updates</li>
+                        </ul>
+                        
+                        <div class="price-comparison">
+                            <div class="comparison-item">
+                                <span class="service">Traditional Therapy:</span>
+                                <span class="price">$150+ per session</span>
+                            </div>
+                            <div class="comparison-item">
+                                <span class="service">Life Coaching:</span>
+                                <span class="price">$200+ per hour</span>
+                            </div>
+                            <div class="comparison-item highlight">
+                                <span class="service">Breaking Free System:</span>
+                                <span class="price">Just $40 (83% savings)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="solution-cta">
+                    <a href="https://ko-fi.com/s/901892076f" class="btn btn-primary pulse" target="_blank" onclick="trackEvent('CTA Click', 'Solution Get Book')">
+                        <i class="fas fa-rocket"></i>
+                        Get Breaking Free - $40
+                    </a>
+                    <p class="guarantee-text">
+                        <i class="fas fa-shield-check"></i>
+                        30-day money-back guarantee
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section id="author" class="author-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Meet Your Guide Out of 
+                    <span class="highlight-gold">Self-Sabotage Hell</span>
+                </h2>
+            </div>
+            
+            <div class="author-content">
+                <div class="author-image-container">
+                    <div class="author-glow"></div>
+                    <img src="images/author-photo.jpg" alt="Shawn Straker - Neuroscience-Based Performance Expert and Author of Breaking Free" class="author-image" onclick="openLightbox(this.src)">
+                    <div class="credentials-badges">
+                        <div class="badge">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Neuroscience Expert</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-users"></i>
+                            <span>10,000+ Clients</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-chart-line"></i>
+                            <span>94% Success Rate</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="author-bio">
+                    <h3>Shawn Straker</h3>
+                    <p class="author-title">Neuroscience-Based Performance Expert & Former Self-Saboteur</p>
+                    
+                    <div class="bio-content">
+                        <p class="lead-text">
+                            I used to be the king of self-sabotage. Despite having all the "right" credentials and abilities, 
+                            I kept destroying every opportunity that came my way.
+                        </p>
+                        
+                        <p>
+                            After 15+ years of research into neuroscience, behavioral psychology, and working with over 10,000 clients, 
+                            I've cracked the code on what actually works to stop self-sabotage permanently.
+                        </p>
+                        
+                        <p>
+                            My methods have helped executives break through 6-figure income barriers, athletes achieve Olympic-level performance, 
+                            and "hopeless cases" finally build the life they deserve.
+                        </p>
+                        
+                        <div class="results-grid">
+                            <div class="result-item">
+                                <div class="result-number">94%</div>
+                                <div class="result-text">Client improvement rate</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">10,000+</div>
+                                <div class="result-text">People helped</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">15+</div>
+                                <div class="result-text">Years of research</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-number">25+</div>
+                                <div class="result-text">Proven techniques</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="author-quote">
+                        <blockquote>
+                            "The techniques in Breaking Free aren't just theory—they're battle-tested methods that have transformed 
+                            thousands of lives. If you're tired of being your own worst enemy, this is your way out."
+                        </blockquote>
+                        <cite>- Shawn Straker</cite>
+                    </div>
+                    
+                    <div class="author-cta">
+                        <a href="https://ko-fi.com/s/901892076f" class="btn btn-secondary" target="_blank" onclick="trackEvent('CTA Click', 'Author Get Book')">
+                            <i class="fas fa-book-open"></i>
+                            Get Shawn's System - $40
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    What People Are Saying About 
+                    <span class="highlight-gold">Breaking Free</span>
+                </h2>
+                <div class="overall-rating">
+                    <div class="stars-large">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="rating-text">4.9/5 stars from 2,847+ readers</span>
+                </div>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-meta">
+                            <span class="name">Sarah M.</span>
+                            <span class="title">Marketing Executive</span>
+                        </div>
+                    </div>
+                    <blockquote>
+                        "Best $40 I ever spent. The RAIN method alone saved me from a panic attack during my biggest presentation. 
+                        I got the promotion I'd been sabotaging myself out of for years."
+                    </blockquote>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-meta">
+                            <span class="name">Michael R.</span>
+                            <span class="title">Entrepreneur</span>
+                        </div>
+                    </div>
+                    <blockquote>
+                        "I was the king of starting projects and never finishing them. Shawn's perfectionism techniques 
+                        helped me launch my first profitable business. Revenue hit $100K in 8 months."
+                    </blockquote>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-meta">
+                            <span class="name">Jennifer L.</span>
+                            <span class="title">Creative Director</span>
+                        </div>
+                    </div>
+                    <blockquote>
+                        "The people-pleasing section hit me like a truck. I finally learned to say no without guilt. 
+                        My creativity exploded and I'm working on projects I actually care about."
+                    </blockquote>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-meta">
+                            <span class="name">David K.</span>
+                            <span class="title">Software Engineer</span>
+                        </div>
+                    </div>
+                    <blockquote>
+                        "Procrastination was destroying my career. The 5-4-3-2-1 grounding technique gets me out of 
+                        analysis paralysis instantly. I've shipped more code in 3 months than the previous year."
+                    </blockquote>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-meta">
+                            <span class="name">Lisa H.</span>
+                            <span class="title">Fitness Coach</span>
+                        </div>
+                    </div>
+                    <blockquote>
+                        "My inner critic was brutal. Shawn's shame resilience techniques transformed that voice from 
+                        an enemy into an ally. I've tripled my client base and feel confident for the first time in years."
+                    </blockquote>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-meta">
+                            <span class="name">Robert T.</span>
+                            <span class="title">Sales Manager</span>
+                        </div>
+                    </div>
+                    <blockquote>
+                        "This book is worth 10x the price. The DEAR MAN scripts helped me have difficult conversations 
+                        I'd been avoiding for months. My team respects me more and sales are up 40%."
+                    </blockquote>
+                </div>
+            </div>
+            
+            <div class="testimonials-cta">
+                <a href="https://ko-fi.com/s/901892076f" class="btn btn-primary pulse" target="_blank" onclick="trackEvent('CTA Click', 'Testimonials Get Book')">
+                    <i class="fas fa-star"></i>
+                    Join 2,847+ Success Stories - $40
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Magnet Section -->
+    <section id="lead-magnet" class="lead-magnet-section">
+        <div class="container">
+            <div class="lead-magnet-content">
+                <div class="lead-magnet-text">
+                    <h2 class="section-title">
+                        Get Your Free 
+                        <span class="highlight-gold">Self-Sabotage Assessment</span>
+                        + First Chapter
+                    </h2>
+                    <p class="section-subtitle">
+                        Discover which of the 4 saboteurs is destroying your success (and get the exact technique to stop it)
+                    </p>
+                    
+                    <div class="lead-benefits">
+                        <div class="benefit-item">
+                            <i class="fas fa-search glow-icon"></i>
+                            <span>5-minute assessment reveals your sabotage pattern</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-book-open glow-icon"></i>
+                            <span>Free first chapter with emergency techniques</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-brain glow-icon"></i>
+                            <span>Neuroscience guide to rewiring your brain</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-proof-lead">
+                        <span class="social-count">12,847+ people</span> have taken the assessment
+                    </div>
+                </div>
+                
+                <div class="lead-form-container">
+                    <form class="lead-form" id="leadMagnetForm">
+                        <h3>Get Instant Access</h3>
+                        <div class="form-group">
+                            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary pulse">
+                            <i class="fas fa-download"></i>
+                            Get Free Assessment + Chapter
+                        </button>
+                        <p class="privacy-note">
+                            <i class="fas fa-lock"></i>
+                            Your privacy is protected. Unsubscribe anytime.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Purchase Section -->
+    <section id="purchase" class="purchase-section">
+        <div class="container">
+            <div class="purchase-content">
+                <div class="purchase-header">
+                    <h2 class="section-title">
+                        Ready To Stop Punching Yourself 
+                        <span class="highlight-red">In The Face?</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Get the complete system that's already helped 10,000+ people break free from self-sabotage
+                    </p>
+                </div>
+                
+                <div class="purchase-offer">
+                    <div class="offer-content">
+                        <div class="book-showcase">
+                            <img src="images/book-cover.jpg" alt="Breaking Free: Overcoming Guilt and Self-Sabotage" class="purchase-book-image">
+                            <div class="book-features">
+                                <h4>What You Get:</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i>Complete 250+ page system</li>
+                                    <li><i class="fas fa-check"></i>25+ proven techniques</li>
+                                    <li><i class="fas fa-check"></i>Step-by-step guides</li>
+                                    <li><i class="fas fa-check"></i>Emergency protocols</li>
+                                    <li><i class="fas fa-check"></i>Lifetime updates</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-container">
+                            <div class="price-breakdown">
+                                <div class="price-item">
+                                    <span class="price-label">Therapy (10 sessions):</span>
+                                    <span class="price-value">$1,500+</span>
+                                </div>
+                                <div class="price-item">
+                                    <span class="price-label">Life Coaching (5 hours):</span>
+                                    <span class="price-value">$1,000+</span>
+                                </div>
+                                <div class="price-item highlight">
+                                    <span class="price-label">Breaking Free System:</span>
+                                    <div class="current-price">
+                                        <span class="price-old">$59.99</span>
+                                        <span class="price-current">$40</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="savings-highlight">
+                                <span class="savings-text">You Save $19.99 + Get Lifetime Value</span>
+                            </div>
+                            
+                            <div class="purchase-ctas">
+                                <a href="https://ko-fi.com/s/901892076f" class="btn btn-primary btn-large pulse" target="_blank" onclick="trackEvent('Purchase', 'Main CTA')">
+                                    <i class="fas fa-rocket"></i>
+                                    Get Breaking Free - $40
+                                </a>
+                                <p class="guarantee">
+                                    <i class="fas fa-shield-check"></i>
+                                    30-day money-back guarantee
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="urgency-elements">
+                    <div class="urgency-text">
+                        <p><strong>Don't wait.</strong> Every day you delay is another day self-sabotage wins.</p>
+                        <p>Your future self is counting on the decision you make right now.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <h3>Breaking Free</h3>
+                    <p>Stop punching yourself in the face and finally win the war inside your head.</p>
+                    
+                    <div class="footer-cta">
+                        <a href="https://ko-fi.com/s/901892076f" class="btn btn-outline" target="_blank" onclick="trackEvent('CTA Click', 'Footer')">
+                            Get The Book - $40
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#problem">The Problem</a></li>
+                        <li><a href="#solution">The Solution</a></li>
+                        <li><a href="#author">About Author</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Support</h4>
+                    <p>Questions about the book?</p>
+                    <p>Contact: support@breakingfree.com</p>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Breaking Free. All rights reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <!-- Lead Magnet Modal -->
+    <div id="leadMagnetModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2>Get Your Free Self-Sabotage Assessment</h2>
+                <p>Discover which saboteur is holding you back + get the first chapter free</p>
+            </div>
+            <form class="modal-form" id="modalLeadForm">
+                <div class="form-group">
+                    <input type="text" name="firstName" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    Get Free Assessment + Chapter
+                </button>
+                <p class="privacy-note">
+                    <i class="fas fa-lock"></i>
+                    Your privacy is protected. Unsubscribe anytime.
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Exit Intent Modal -->
+    <div id="exitIntentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2>Wait! Don't Let Self-Sabotage Win</h2>
+                <p>Get your free chapter before you go - it could change everything</p>
+            </div>
+            <form class="modal-form" id="exitIntentForm">
+                <div class="form-group">
+                    <input type="text" name="firstName" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    Get Free Chapter Now
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Image Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImage">
+    </div>
+
+    <!-- Social Proof Notifications -->
+    <div id="socialProofNotifications" class="social-proof-notifications"></div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
